@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/HOME_Fragment2">
+    <fragment
+        android:id="@+id/HOME_Fragment2"
+        android:name="com.example.steveme.HOME_Fragment2"
+        android:label="fragment_h_o_m_e_2"
+        tools:layout="@layout/fragment_h_o_m_e_2" >
+        <action
+            android:id="@+id/action_HOME_Fragment2_to_SETTINGS_Fragment2"
+            app:destination="@id/SETTINGS_Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/PROFILESFragment2"
+        android:name="com.example.steveme.PROFILESFragment2"
+        android:label="fragment_p_r_o_f_i_l_e_s2"
+        tools:layout="@layout/fragment_p_r_o_f_i_l_e_s2" >
+        <action
+            android:id="@+id/action_PROFILESFragment2_to_SETTINGS_Fragment2"
+            app:destination="@id/SETTINGS_Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/SETTINGS_Fragment2"
+        android:name="com.example.steveme.SETTINGS_Fragment2"
+        android:label="fragment_s_e_t_t_i_n_g_s_2"
+        tools:layout="@layout/fragment_s_e_t_t_i_n_g_s_2" />
+</navigation>
